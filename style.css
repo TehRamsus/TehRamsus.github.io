@@ -42,26 +42,11 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
-    animation: breath 60s ease-in-out alternate infinite;
+    animation: breath 180s ease-in-out alternate infinite;
     background-position: 0px 0px;
 
     display: block;
 }
-
-/*#logo
-{
-    animation: scale-up-center 1.0s cubic-bezier(0.895, 0.030, 0.685, 0.220) both;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://cdn.discordapp.com/attachments/715140234425401435/738802917485838366/logo_ramsus.png);
-    background-size: 10%;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-}*/
 
 @keyframes breath {
     from { 
