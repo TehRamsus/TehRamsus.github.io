@@ -27,8 +27,10 @@ html, body {
   z-index:99;
   animation: fadeIn 2s, fadeinGlow 4s;
   animation-fill-mode: forwards;
+  -webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
 }
-
 
 
 button {
@@ -51,6 +53,7 @@ button {
   overflow: hidden;   
   animation: fadeIn 2s, fadeinGlow 4s;
   animation-fill-mode: forwards;
+  margin-left: 10px;
 }
 
 button:focus {
@@ -107,7 +110,6 @@ button .left:hover ~ .right::after {
   transform: translate(0, -50%) rotate(7deg)
 }
 
-/* bubbles */
 button::before {
   content: '';
   pointer-events: none;
