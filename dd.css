@@ -1895,7 +1895,7 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
 }
     /* */
     html[style] head ~ body[style] > #app-mount.appMount-3lHmkl .wordmark-2iDDfm::after {
-        content: "Dusk to Dawn Edited by Ramsus";
+        content: "~Ramsus~";
         display: block !important;
         position: absolute;
         left: 10px;
