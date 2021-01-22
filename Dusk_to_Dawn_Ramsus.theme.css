@@ -1,0 +1,35 @@
+/**
+  * @name Dusk to Dawn By Ramsus
+  * @author Asteria
+  * @description Simple dark mode theme with minor changes
+of discord's default appearance in subtle ways.
+
+  * @version 1.5
+  * @invite QRxZPvc
+  */
+@import url('https://raw.githubusercontent.com/TehRamsus/bd-theme-dark/main/dd.css');
+
+
+/* Variables */
+:root {
+    /* Dark Mode  */
+    --dm-channel-color: hsla(240, 100%, 50%, 0.5); /* Channel Selected/Hoverd background color | Theme's Default - hsla(240, 1%, 29%, 0.5) */
+    --dm-chat-bg: #1a1a1a; /* Chat's background color | Theme's Default - #1a1a1a */
+    /* Light Mode */
+    --lm-channel-color: rgba(14, 13, 13, 0.8); /* Channel Selected/Hoverd background color | Theme's Default - hsla(240, 1%, 29%, 0.5) */
+    --lm-chat-bg: #f7f7ff; /* Chat's background color | Theme's Default - #f7f7ff */    
+    /*            */
+    --button-radius: 0px; /* Discord Default - 3px | Theme's Default - 0px */
+    --channel-radius: 2px; /* Discord Default - 3px | Theme's Default - 6px */
+}
+
+/* Highlight Selection */
+/* -delete this css below if you do not want a different highlight than default blue and white text*/
+.theme-dark ::selection {
+    background-color: #e9e8f0;
+    color: #1e1e1e;
+}
+.theme-light ::selection {
+    background-color: #201f1f;
+    color: #efebeb;
+}
