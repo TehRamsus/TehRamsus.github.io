@@ -17,6 +17,8 @@
     --mentioned-hover: rgba(95, 95, 95, 0.2);
 }
 
+button[aria-label="Send a gift"] { display: none; }
+
 /* Core */
 #app-mount, .typeWindows-1za-n7 {
     background-color: #1a1a1a;
