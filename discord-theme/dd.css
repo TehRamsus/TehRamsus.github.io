@@ -11,7 +11,7 @@
     --scrollbar-thumb: #666;
     --scrollbar-thumb-hover: #aaa7a7;
     --settings-blurple: #5f5f5f;
-    --speaking-ring: #0015ff;
+    --speaking-ring: rgba(0,21,255, 0.8);
     --mentioned-before: rgba(95, 95, 95, 1);
     --mentioned: rgba(95, 95, 95, 0.1);
     --mentioned-hover: rgba(95, 95, 95, 0.2);
