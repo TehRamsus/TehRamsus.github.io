@@ -62,6 +62,12 @@
 button[aria-label="Send a gift"] {display: none;}
 button[aria-label="Help"] {display: none;}
 
+.appMount-3lHmkl, body {
+    opacity: 0.0;
+	-webkit-animation: fade-in-fwd 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-fwd 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
 .auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: transparent;
 }
@@ -199,4 +205,56 @@ button[aria-label="Help"] {display: none;}
 
 a[href="https://support.discord.com"] {
     display: none;
+}
+
+.theme-dark .uploadModal-2ifh8j {
+    background-color: var(--background-primary);
+}
+
+.inner-MADQqc {
+    background-color: var(--background-color-ramsus-additional);
+}
+
+.theme-dark .footer-3mqk7D {
+    background-color: var(--background-primary);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: var(--background-color-ramsus-midnight);
+}
+
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
+	-webkit-animation: fade-in-fwd 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-fwd 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.container-3w7J-x {
+	-webkit-animation: fade-in-fwd 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-fwd 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+    0% {
+        -webkit-transform: translateZ(-80px);
+                transform: translateZ(-80px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-fwd {
+    0% {
+        -webkit-transform: translateZ(-80px);
+                transform: translateZ(-80px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        opacity: 1;
+    }
 }
