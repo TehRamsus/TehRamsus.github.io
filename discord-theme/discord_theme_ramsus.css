@@ -74,8 +74,10 @@ button[aria-label="Help"] {display: none;}
 
 .peopleList-3c4jOR {
     padding-bottom: 8px;
+    margin-top: 0px;
     background-color: var(--background-secondary);
 }
+
 
 .friendsEmpty-1K9B4k {
     background-color: var(--background-secondary);
@@ -169,17 +171,11 @@ button[aria-label="Help"] {display: none;}
     background-color: var(--background-color-ramsus-additional);
 }
 
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-    background-color: var(--background-color-ramsus-additional);
-}
 
 .theme-dark .headerNormal-T_seeN {
     background-color: var(--background-color-ramsus-additional);
 }
 
-.marginTop40-i-78cZ {
-    display: none;
-}
 
 .circleIconButton-1QV--U {
     color: var(--background-color-ramsus-midnight);
@@ -254,10 +250,7 @@ a[href="https://support.discord.com"] {
     }
 }
 
-.activity-11LB_k {
-    background-color: var(--background-color-ramsus-additional);
-}
 
-.headerTop-3C2Zn0 {
+.resultsGroup-r_nuzN {
     background-color: var(--background-color-ramsus-additional);
 }
