@@ -1,4 +1,4 @@
-/* Discord Default theme edited to black. Theme editer: "Ramsus"#1234 */
+/* Discord Default theme edited to black. Theme edited by: "Ramsus"#1234 */
 .theme-dark {
     --header-primary:#fff;
     --header-secondary:#b9bbbe;
@@ -250,7 +250,24 @@ a[href="https://support.discord.com"] {
     }
 }
 
+.resultsGroup-r_nuzN { background-color: var(--background-color-ramsus-additional) }
+.expandedFolderBackground-1cujaW { background-color: var(--background-color-ramsus-additional) }
+.folder-1hbNCn { background-color: var(--background-color-ramsus-additional) }
+.folder-1hbNCn.hover-qTxTR_ { background-color: var(--background-modifier-hover) }
 
-.resultsGroup-r_nuzN {
+.theme-dark .option-96V44q:after {
+    background: var(--background-color-ramsus-additional);
+}
+
+.circleIconButton-1QV--U.selected-1JjBPm {
+    color: var(--background-color-ramsus-midnight);
     background-color: var(--background-color-ramsus-additional);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: var(--background-color-ramsus-additional);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background-color: var(--background-color-ramsus-midnight);
 }
